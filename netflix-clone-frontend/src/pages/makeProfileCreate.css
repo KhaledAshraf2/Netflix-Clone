@@ -2,20 +2,56 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #222222 !important;
 }
 .profileInfo{
   height: 250px;
+}
+.App-header{
+  text-align: left;
+}
+.App-title{
+  height: 80%;
+  font-size: 6vw;
+}
+#description{
+  height: 20%;
 }
 .profilePicture{
   height: 250px;
   width: 50%;
   float: left;
-  background-color: red;
 }
 .username{
   clear: right;
   height: 250px;
   width: 50%;
   float: right;
-  background-color: blue;
 }
+#PP{
+  height: 60%;
+  margin-top: 25%;
+}
+.username{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.TextBox{
+  width: 90%;
+}
+#user_name{
+  margin-bottom: 1%;
+}
+#urlText{
+  margin-top: 1%;
+}
+#OkButton{
+  margin-right: 12%;
+  padding-right: 12%;
+  padding-left: 12%;
+}
+#CancelButton{
+  margin-left: 12%;
+  padding-right: 5%;
+  padding-left: 5%;
+ }
